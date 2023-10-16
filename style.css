@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+#header{
+    display: flex;
+    height: 70%;
+    background-color: #FFCD9E;
+}
+#footer {
+    height: 30%;
+    background-color: #282828;
+    display: flex;
+}
+
+.div1 {
+    flex: 1;
+    /* margin: 63px 130px; */
+    margin: 4% 8%;
+}
+
+.div2 {
+    flex:1
+}
+
+.pic {
+    height: 90%;
+    margin: 35px 150px;
+}
+
+.p1 {
+    color: #282828;
+    font-weight: 700;
+    font-size: 29px;
+    font-family: 'Inter',sans-serif;
+    line-height: 44px;
+    margin-bottom: 8px;
+}
+
+.p2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Inter',sans-serif;
+    color: #484848;
+    
+}
+
+.p3 {
+    font-weight: 800;
+    font-size: 14px;
+    font-family: 'Inter',sans-serif;
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 250px;
+    height:20px
+}
+
+input[type="text"]::placeholder {
+    text-align: left;
+    color: #888888;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Inter',sans-serif;
+    padding: 30px 10px;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Inter',sans-serif;
+    color:white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.list1 {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter',sans-serif;
+    color:#FFFFFF;
+    margin-left: 160px;
+    list-style: none;
+    line-height: 26px;
+    padding-top: 35px;
+    height:3px;
+    flex: 1;
+}
+
+.list2 {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter',sans-serif;
+    color:#FFFFFF;
+    margin-left: 480px;
+    flex: 1;
+    padding-top: 45px;
+    line-height: 26px;
+    text-align: right;
+    margin-right: 240px;
+}
+
+.list2 li:last-child {
+    margin-top:10px;
+}
+
+.linkedin-logo {
+    width: 20px; 
+    height: 23px; 
+    
+}
+
+.instagram-logo {
+    width: 20px; 
+    height: 23px; 
+    
+}
+
